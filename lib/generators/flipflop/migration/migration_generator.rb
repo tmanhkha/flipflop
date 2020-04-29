@@ -8,7 +8,7 @@ class Flipflop::MigrationGenerator < Rails::Generators::Base
   source_root File.expand_path("../templates", __FILE__)
 
   def create_migration_file
-    migration_template("create_features.rb", "db/migrate/create_flip_features.rb")
+    migration_template("create_features.rb", "db/migrate/create_features.rb")
   end
 
   # Stubbed in railties/lib/rails/generators/migration.rb
